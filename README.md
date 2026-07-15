@@ -6,7 +6,6 @@
   <img src="https://img.shields.io/badge/React-Frontend-61DAFB.svg">
   <img src="https://img.shields.io/badge/MediaPipe-Pose-orange.svg">
   <img src="https://img.shields.io/badge/Deep%20Learning-CNN--LSTM-success.svg">
-  <img src="https://img.shields.io/badge/License-MIT-red.svg">
 </p>
 
 ## 📖 Overview
@@ -291,41 +290,6 @@ The developed system successfully achieved:
 - Reduced dependency on expensive rehabilitation equipment.
 - Improved rehabilitation accessibility and patient engagement.
 - Established a scalable platform for future clinical deployment.
-
----
-
-# 📸 Screenshots
-
-Place screenshots inside the **screenshots/** folder.
-
-```text
-screenshots/
-├── login.png
-├── dashboard.png
-├── exercise.png
-├── analysis.png
-└── report.png
-```
-
-Example:
-
-```markdown
-## Login
-
-![Login](screenshots/login.png)
-
-## Dashboard
-
-![Dashboard](screenshots/dashboard.png)
-
-## Exercise Monitoring
-
-![Exercise](screenshots/exercise.png)
-
-## Result Analysis
-
-![Analysis](screenshots/analysis.png)
-```
 
 ---
 

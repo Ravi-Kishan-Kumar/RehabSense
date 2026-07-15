@@ -5,14 +5,14 @@
   <img src="https://img.shields.io/badge/FastAPI-Backend-009688.svg">
   <img src="https://img.shields.io/badge/React-Frontend-61DAFB.svg">
   <img src="https://img.shields.io/badge/MediaPipe-Pose-orange.svg">
-  <img src="https://img.shields.io/badge/Deep%20Learning-CNN--LSTM-success.svg">
+  <img src="https://img.shields.io/badge/Exercise%20Analysis-Heuristic%20Rules-success.svg">
 </p>
 
 ## 📖 Overview
 
 **RehabSense** is an AI-powered rehabilitation monitoring platform that assists patients in performing physiotherapy exercises with **real-time movement analysis, posture assessment, repetition counting, and personalized AI feedback**.
 
-The system combines **Computer Vision, Deep Learning, FastAPI, React, and Google Gemini AI** to make home-based rehabilitation more accessible, interactive, and effective. It enables patients to perform exercises safely while allowing caregivers and physiotherapists to monitor rehabilitation progress through detailed session analytics.
+The system combines **Computer Vision, Heuristic Rule-Based Motion Analysis, FastAPI, React, and Google Gemini AI** to make home-based rehabilitation more accessible, interactive, and effective. It enables patients to perform exercises safely while allowing caregivers and physiotherapists to monitor rehabilitation progress through detailed session analytics.
 
 ---
 
@@ -39,7 +39,7 @@ These limitations reduce accessibility for home-based rehabilitation.
 - 🧍 Live pose estimation with MediaPipe
 - 📐 Joint angle and posture analysis
 - 🔢 Automatic repetition counting
-- 🤖 CNN-LSTM based exercise classification
+- 🤖 Heuristic rule-based exercise classification
 - ✅ Form assessment (Correct / Partial / Incorrect)
 - 💬 AI-generated posture correction using Google Gemini
 - 📊 Interactive rehabilitation dashboard
@@ -68,7 +68,7 @@ Patient Performs Exercise
  Feature Extraction
             │
             ▼
- CNN-LSTM Deep Learning Model
+ Heuristic Rule Engine
             │
             ▼
 Exercise Classification
@@ -94,7 +94,7 @@ Exercise Classification
 2. They select the rehabilitation exercise and target joint.
 3. The webcam captures body movements in real time.
 4. MediaPipe extracts body landmarks and joint positions.
-5. The CNN-LSTM model classifies the performed exercise.
+5. A heuristic rule engine analyzes joint angles, posture, and movement patterns to classify the exercise.
 6. The system counts repetitions and evaluates exercise quality.
 7. Google Gemini generates personalized suggestions to improve posture.
 8. Results are displayed on an interactive dashboard.
@@ -132,11 +132,11 @@ Exercise Classification
 ## AI & Computer Vision
 
 - MediaPipe Pose
-- TensorFlow
-- CNN
-- LSTM
 - OpenCV
 - NumPy
+- Heuristic Rule-Based Motion Analysis
+- Joint Angle Calculation
+- Rule-Based Exercise Classification
 
 ---
 
@@ -230,7 +230,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload --port 8000
 ```
 
-Backend URLs
+Backend URL
 
 ```
 http://localhost:8000
@@ -271,20 +271,20 @@ The developed system successfully achieved:
 - ✅ Real-time rehabilitation monitoring
 - ✅ Automatic pose estimation
 - ✅ Intelligent repetition counting
-- ✅ Exercise form evaluation
+- ✅ Rule-based exercise classification
+- ✅ Real-time posture assessment
 - ✅ AI-powered posture correction
 - ✅ Interactive rehabilitation dashboard
 - ✅ Secure authentication
 - ✅ PDF report generation
-- ✅ Smooth real-time performance (<100 ms latency)
-- ✅ Approximately **94–96% exercise recognition accuracy**
+- ✅ Smooth real-time performance
 
 ---
 
 # 🎯 Project Outcomes
 
 - Developed an intelligent rehabilitation monitoring platform.
-- Successfully integrated Computer Vision with Deep Learning.
+- Successfully integrated Computer Vision with heuristic rule-based motion analysis.
 - Built an end-to-end rehabilitation dashboard.
 - Enabled AI-assisted home physiotherapy.
 - Reduced dependency on expensive rehabilitation equipment.
@@ -326,7 +326,7 @@ The developed system successfully achieved:
 # 📚 References
 
 - MediaPipe Pose
-- TensorFlow
+- OpenCV
 - FastAPI
 - React
 - SQLAlchemy
@@ -334,7 +334,7 @@ The developed system successfully achieved:
 - IEEE Research Papers on:
   - Human Activity Recognition
   - Rehabilitation Monitoring
-  - CNN-LSTM Networks
+  - Heuristic Motion Analysis
   - Wearable Sensor Systems
   - Pose Estimation
 

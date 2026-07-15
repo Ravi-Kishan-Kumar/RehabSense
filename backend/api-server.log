@@ -1,0 +1,2 @@
+INFO:     127.0.0.1:53075 - "POST /api/auth/register HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53075 - "POST /api/ai/chat HTTP/1.1" 200 OK
